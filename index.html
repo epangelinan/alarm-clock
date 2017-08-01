@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script src="bower_components/moment/min/moment.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title>Alarm Clock</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3 id="time"></h3>
+      <form id="alarm-clock-form">
+        <label for="set-hour">Enter the hour (up to 23):</label>
+        <input id="set-hour" type="number">
+        <label for="set-minutes">Enter the minutes (up to 59):</label>
+        <input id="set-minutes" type="number">
+        <label for="set-am-pm">Enter a for a.m. or p for p.m.:</label>
+        <input id="set-am-pm" type="text">
+        <button type="submit">Submit</button>
+      </form>
+      <p id="time-entered">The time is: </p>
+    </div>
+
+  </body>
+</html>
