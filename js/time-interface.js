@@ -1,6 +1,6 @@
 $(document).ready(function(){
   setInterval(function(){
-    $('#time').text(moment.utc().format('YYYY-MM-DD HH:mm:ss'));
+    $('#time').text(moment().format('H:mm:ss'));
   }, 1000);
-$('#time-entered').text(moment());
+  $('#time-entered').text(moment());
 });
